@@ -38,7 +38,7 @@ ModelInfo:
 
 ## skeletal muscle vasculature
 
-TODO entries go here
+TODO entries relating to the vasculature within the skeletal muscle go here
 
 {Citation: XXXX  
 Type: XXXX  
