@@ -1,0 +1,1 @@
+The desired data format should be defined here. All data won't be able to conform to this, but it might be good to have standards for the data we do want to use.
