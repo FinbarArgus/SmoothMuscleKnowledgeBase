@@ -32,7 +32,7 @@ ExperimentInfo: *(For experimental results) Detail the inputs and outputs of eac
 ModelInfo: 
 {ModelLanguage: CellML or Matlab or etc.  
  SI units: True or False *if the units are in SI or not*.  
- modelLocation: models/FirstAuthorLastNameXXXXPaperFirstBigWord *If the model is open, save it in a directory of this format and specify the dir here Otherwise specify the email of the person to contact to get the data or the url*}}  
+ modelLocation: models/FirstAuthorLastNameXXXXPaperFirstBigWord *If the model is open, save it in a directory of this format and specify the dir here. Otherwise specify the email of the person to contact to get the data or the url*}}  
 
  
 
