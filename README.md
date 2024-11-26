@@ -19,7 +19,7 @@ Citation information should be included in the following manner (Please offer im
 
 
 {Citation: FirstAuthorLastNameXXXXPaperFirstBigWord  
-Type: Choose from [Modelling paper, experimental results, review]  *% Include more types if neccesary*  
+Type: Choose from [Modelling paper, Unpublished Model, experimental results, review]  *% Include more types if neccesary*  
 Animal: Rat *% the animals that the experiments are done on or the animals that the model is replicating.*  
 CellType: choose from [vascular smooth muscle, airway smooth muscle, uterine smooth muscle, gut smooth muscle, other smooth muscle]  
 Location: brain *% what organ or location of the body this dataset is from or which location the model is based on.*  
@@ -33,6 +33,42 @@ ModelInfo:
 {ModelLanguage: CellML or Matlab or etc.  
  SI units: True or False *% if the units are in SI or not*.  
  modelLocation: models/FirstAuthorLastNameXXXXPaperFirstBigWord *% If the model is open, save it in a directory of this format and specify the dir here. Otherwise specify the email of the person to contact to get the data or the url*}}  
+
+# Vascular Smooth Muscle
+
+## skeletal muscle vasculature
+
+TODO entries go here
+
+{Citation: XXXX  
+Type: XXXX  
+Animal: XXXX  
+CellType: XXXX  
+Location: XXXX    
+ExperimentInfo:   
+{inputs: XXXX,  
+ outputs: XXXX  
+ methods: XXXX*   
+ dataAvailability: XXXX  
+ dataLocation: XXXX}  
+ModelInfo: 
+{ModelLanguage: XXXX  
+ SI units: XXXX  
+ modelLocation: XXXX }}  
+
+## 
+
+# Airway Smooth Muscle
+
+## *subsections by branch maybe?*
+
+# Uterine Smooth Muscle
+
+# Gut Smooth Muscle
+
+# Other Smooth Muscle
+
+
 
  
 
