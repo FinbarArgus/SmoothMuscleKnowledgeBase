@@ -9,6 +9,8 @@ This repo is a place for storing knowledge, models, and data of smooth muscle ce
 
 # Format for this Readme
 
+## Citations
+
 Please include citations as {FirstAuthorLastName}{year}{PaperFirstBigWord}. For example \cite{Davis2023tight} for \newline
 
 Davis, Harvey, and David Attwell. "A tight squeeze: how do we make sense of small changes in microvascular diameter?." The Journal of physiology 601.12 (2023): 2263-2272.\cite{herna}
@@ -17,6 +19,7 @@ The citations should be uploaded to this shared Zotero library (https://www.zote
 \newline
 Citation information should be included in the following manner (Please offer improvements below if you think this format could be improved).
 
+## Entries
 
 {Citation: FirstAuthorLastNameXXXXPaperFirstBigWord  
 Type: Choose from [Modelling paper, Unpublished Model, experimental results, review]  *% Include more types if neccesary*  
