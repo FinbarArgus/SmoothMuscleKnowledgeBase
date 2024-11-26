@@ -21,21 +21,22 @@ Citation information should be included in the following manner (Please offer im
 
 ## Entries
 
-{Citation: FirstAuthorLastNameXXXXPaperFirstBigWord  
-Type: Choose from [Modelling paper, Unpublished Model, experimental results, review]  *% Include more types if neccesary*  
-Animal: Rat *% the animals that the experiments are done on or the animals that the model is replicating.*  
-CellType: choose from [vascular smooth muscle, airway smooth muscle, uterine smooth muscle, gut smooth muscle, other smooth muscle]  
-Location: brain *% what organ or location of the body this dataset is from or which location the model is based on.*  
-ExperimentInfo: *% (For experimental results) Detail the inputs and outputs of each result (normally each figure) in the paper. For example for an experiment that varied input current and compared baseline to isoproterenol application and measured voltage with whole cell patch-clamp and Calcium with FRET...*  
+{citation: FirstAuthorLastNameXXXXPaperFirstBigWord  
+type: Choose from [Modelling paper, Unpublished Model, experimental results, review]  *% Include more types if neccesary*  
+animal: Rat *% the animals that the experiments are done on or the animals that the model is replicating.*  
+cellType: choose from [vascular smooth muscle, airway smooth muscle, uterine smooth muscle, gut smooth muscle, other smooth muscle]  
+location: brain *% what organ or location of the body this dataset is from or which location the model is based on.*  
+experimentInfo: *% (For experimental results) Detail the inputs and outputs of each result (normally each figure) in the paper. For example for an experiment that varied input current and compared baseline to isoproterenol application and measured voltage with whole cell patch-clamp and Calcium with FRET...*  
 {inputs: current, isoproterenol,  
  outputs: voltage, Calcium,  
  methods: whole-cell patch clamp, FRET (Calcium)} *% (Include one bracketed entry for each experiment in the paper.)*   
  dataAvailability: choose from [open, request, private]  
  dataLocation: data/FirstAuthorLastNameXXXXPaperFirstBigWord *% If the data is open, save it in a directory of this format and specify the dir here. Otherwise specify the email of the person to contact to get the data or the url*}  
-ModelInfo: 
-{ModelLanguage: CellML or Matlab or etc.  
+ModelInfo:
+{modelLanguage: CellML or Matlab or etc.  
  SI units: True or False *% if the units are in SI or not*.  
- modelLocation: models/FirstAuthorLastNameXXXXPaperFirstBigWord *% If the model is open, save it in a directory of this format and specify the dir here. Otherwise specify the email of the person to contact to get the data or the url*}}  
+ modelLocation: models/FirstAuthorLastNameXXXXPaperFirstBigWord *% If the model is open, save it in a directory of this format and specify the dir here. Otherwise specify the email of the person to contact to get the data or the url*}
+**comments**: *Any extra comments about the paper. Limitations, interesting discussion points, etc.*}  
 
 # Vascular Smooth Muscle
 
@@ -43,21 +44,23 @@ ModelInfo:
 
 TODO entries relating to the vasculature within the skeletal muscle go here
 
-{Citation: XXXX  
-Type: XXXX  
-Animal: XXXX  
-CellType: XXXX  
-Location: XXXX    
-ExperimentInfo:   
+{citation: XXXX  
+type: XXXX  
+animal: XXXX  
+cellType: XXXX  
+location: XXXX    
+comments: XXXX
+experimentInfo:
 {inputs: XXXX,  
  outputs: XXXX  
  methods: XXXX   
  dataAvailability: XXXX  
  dataLocation: XXXX}  
-ModelInfo: 
-{ModelLanguage: XXXX  
+modelInfo: 
+{modelLanguage: XXXX  
  SI units: XXXX  
- modelLocation: XXXX }}  
+ modelLocation: XXXX }  
+ comments: }  
 
 ## 
 
