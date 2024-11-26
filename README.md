@@ -48,7 +48,7 @@ Location: XXXX
 ExperimentInfo:   
 {inputs: XXXX,  
  outputs: XXXX  
- methods: XXXX*   
+ methods: XXXX   
  dataAvailability: XXXX  
  dataLocation: XXXX}  
 ModelInfo: 
